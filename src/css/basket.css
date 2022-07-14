@@ -1,0 +1,379 @@
+.basket_container {
+    /* margin: 80px 0px 0px 0px; */
+}
+.container_basket_title{
+
+}
+.basket_title{
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    line-height: calc(57/40*100%);
+    color: #252B42;
+}
+
+
+
+.basket-wrapper {
+}
+.basket-item:not(:last-child ){
+    margin-bottom: 15px;
+}
+.basket-item__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: -15px;
+}
+@media (max-width:767px){
+    .basket-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+.basket-item__row {
+    flex-direction: column;
+}
+.basket-item{
+    flex: 0 1 50%;
+}
+}
+
+@media (max-width:480px){
+    .basket-item{
+        flex: 0 1 100%;
+    }
+
+}
+.basket_container_img {
+}
+.item__basket {
+    flex: 0 1 20%;
+    text-align: center;
+}
+.basket_catalog__image {
+}
+.basket_img {
+    max-width: 200px;
+}
+.basket-item__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+@media (max-width:767px){
+    .basket-item__title{
+        padding: 15px 0px 15px 0px;
+    }
+    .item_price {
+        padding: 15px 0px 15px 0px;
+    }
+}
+
+.item_count {
+}
+.flex_center {
+}
+.item__btn {
+}
+.item_action_text {
+    width: 35px;
+    text-align: center;
+}
+.item_total {
+    flex-wrap: wrap;
+}
+.item_price {
+}
+.basket_item_delet {
+    color: rgb(231, 0, 0);
+    cursor: pointer;
+}
+
+/* --------------price----------- */
+
+.basket_total {
+    display: flex;
+    padding: 15px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 3px solid blue;
+}
+@media (max-width:px){
+
+}
+.basket_total_elem {
+    flex: 0 1 auto;
+}
+.total_text {
+    font-size: 18px;
+    font-weight: 600;
+}
+.h5 {
+}
+.delivery_cost {
+    color: rgb(29, 226, 29);
+}
+.free {
+}
+.total_price {
+}
+.dollar {
+}
+
+
+.container_checkout {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.title_checkout {
+    background-color:yellowgreen;
+    cursor: pointer;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* .title_checkout:hover{
+    background-color:rgb(174, 230, 64);
+} */
+
+.item_action_text {
+    font-weight: 500;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+}
+
+
+.item_price {
+    text-align: center;
+}
+
+.item__btn {
+    background-color: #7baef1;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.btn_add {}
+
+.item__btn_add {
+    width: 115px;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 1040px) {
+    .item__btn_add {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+.item_count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.item_total {
+    outline: 0;
+    border-bottom: 2px solid #867f7c;
+}
+
+/* Form */
+
+.form {
+    opacity: 0;
+    display: flex;
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+    padding: 30px;
+    background:#dadcdd;
+}
+
+.form_body {
+    /* flex: 0 1 60%; */
+
+}
+.form_title {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 30px 0px;
+}
+._title{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0px 5px 0px;
+}
+.form_item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0px 0px;
+}
+.form_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.form_lable {
+    padding: 0px 0px 5px 0px;
+    font-size: 18px;
+}
+.input_long{
+    max-width: 300px;
+}
+.form_input {
+    height: 30px;
+    font-size: 18px;
+    padding: 0 10px;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.5s ease 0s;
+}
+.form_ite{
+    margin: 0px 20px 0px 0px;
+}
+.form_input:focus{
+    box-shadow: 0 0 15px #0a80ff;
+}
+._error{
+    box-shadow:0 0 15px red;
+    /* border-radius: red */
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.address_details {
+}
+.title_address {
+    font-size: 25px;
+}
+.form_input_smoll {
+    max-width: 70px;
+}
+.form_radio{
+    /* display: none; */
+}
+
+/* .option_label{
+    display: inline-flex;
+    padding: 0px 50px 0px 0px;
+    align-items:center;
+    position: relative;
+}
+/* .form_radio:checked + .option_label::after {
+    transform: scale(1);
+} */
+
+.option_label::before{
+    content: "";
+    align-self: flex-start;
+    flex: 0 0 24px;
+    height: 24px;
+    background-color: white;
+    border-radius:50%;
+    margin: 0px 10px 0px 0px;
+}
+.option_label::after{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 16px;
+    width: 16px;
+    background-color:#7baef1;
+    border-radius:50%;
+    transform: scale(0);
+}
+.form_radio:checked + .option_label::after {
+    transform: scale(1);
+} */
+
+.form_text {
+    color: #5b5b5e;
+}
+.form__button {
+    width: 100%;
+    min-height: 40px;
+    margin: 20px 0px 0px 0px;
+    background-color: yellowgreen;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.status{
+    color:chocolate;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.showme{
+    display: none;
+}
+
+.show_title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.show_button {
+    min-height: 40px;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    background-color: yellowgreen;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hideme{
+    margin-top: 80px;
+    display:block;
+    height: 200px;
+	line-height: 72px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	background: linear-gradient(-45deg,  #7baef1, #49f357);
+	background-size: 400% 400%;
+	animation: hideme 5s ease infinite;
+}
+
+@keyframes hideme {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+

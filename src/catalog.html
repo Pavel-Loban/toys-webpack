@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/logotip.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
+    rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
+  <!-- <link rel="stylesheet" href="css/catalog.css" /> -->
+  <title>Catalog</title>
+</head>
+
+<body>
+  <div class="preloader loaded">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <header class="header">
+
+    </header>
+    <div class="assistent" hidden></div>
+    <main class="page">
+      <div class="page__mainblock mainblock">
+        <div class="mainblock__container _container">
+          <div class="mainblock__body">
+            <div class="mainblock__text">
+            </div>
+          </div>
+        </div>
+        <div class="mainblock__image _img">
+          <img src="img/child.jpg" alt="cover" />
+        </div>
+      </div>
+      <div id="modal1" class="modal _none">
+        <div class="modal_content">
+          <div class="modal_header">
+            <h4 class="modal_title">Hello!</h4>
+            <a href="#!" class="modal_close_btn">+</a>
+          </div>
+          <p class="modal_text">Do you need help?</p>
+          <p class="modal_text">Leave a contact number and I will call you back</p>
+          <input class="modal_input" type="text" placeholder="contact number" value="+375" maxlength="17">
+        </div>
+        <div class="modal_footer">
+          <a href="#!" class="modal_send">Send</a>
+        </div>
+      </div>
+
+      <section class="page_catalog catalog">
+        <div class="catalog_container _container">
+          <div class="catalog__header header__block">
+            <h2 class="header_block_title">Catalog</h2>
+            <div class="header_block_sub_title">
+            </div>
+          </div>
+          <div class="sort">
+            <div class="header_btn_catalog ">
+              <button id="btn_price_high" class="btn_catalog">price <img src="img/arrow_upward.svg" class="img_btn" alt="up"></button>
+              <button id="btn_price_smoll" class="btn_catalog btn_white">price <img src="img/arrow_downward.svg" class="img_btn " alt="down"></button>
+              <button id="btn_a_z_high" class="btn_catalog ">a-z <img src="img/arrow_upward.svg" class="img_btn " alt="up"></button>
+              <button id="btn_a_z_smoll" class="btn_catalog btn_white">a-z <img src="img/arrow_downward.svg" class="img_btn" alt="down"></button>
+            </div>
+              <div class="input_container ">
+
+              <input type="text" class="input_search _none" placeholder="search">
+              <div class="img_search"><img class="img_search" src="img/search.svg" alt="search"></div>
+            </div>
+
+
+          </div>
+          <div class="no_result flex_center">no result</div>
+
+          <div class="catalog__body">
+
+          </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+
+    </footer>
+  </div>
+  <!-- <script src="js/script.js"></script>
+  <script src="js/index.js"></script>
+
+  <script src="js/addGoods.js"></script>
+  <script src="js/catalog.js"></script> -->
+
+</body>
+
+</html>
