@@ -6,7 +6,8 @@ import { preloader, menuIcon, scrollContacts, mobile, hoverBtnMouseDown, hoverBt
 import { getCountProductsBasket } from './modules/addGoods';
 import { renderGoods, delGoods, reSaveGoods, total, titleBasket, getQuantityOfgoods,intervalGetQuantityOfgoods, theEnd } from './modules/basket';
 import { nav, foot } from './modules/index';
-import { validForm} from './modules/forms';
+// import { validForm} from './modules/forms';
+import { validForm} from './modules/formslocal';
 
 nav();
 foot();

@@ -50,6 +50,7 @@ module.exports = {
           })
     ],
     module: {
+
         rules: [
            // JavaScript
            {
