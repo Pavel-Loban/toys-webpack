@@ -98,7 +98,7 @@ form.addEventListener('submit', ((e) => {
 }));
 
 form.addEventListener('click', (e) => {
-    if (e.target.classList.contains('_req')) {
+    if ( e.target.classList.contains('_req')) {
         e.target.addEventListener('blur', function () {
             if (e.target.value.trim() === '') {
                 e.target.classList.add('_error');
